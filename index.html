@@ -203,7 +203,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/25/competition/ckrikozh90000ngw6cobw9n23/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/dog.jpg">
@@ -216,7 +216,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/07/25/competition/ckrikozh90000ngw6cobw9n23/" class="post-title-link" itemprop="url">比赛总结</a>
+          <a href="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/" class="post-title-link" itemprop="url">比赛总结</a>
         </h2>
 
         <div class="post-meta-container">
@@ -228,7 +228,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2021-07-25 10:16:22 / 修改时间：10:19:06" itemprop="dateCreated datePublished" datetime="2021-07-25T10:16:22+08:00">2021-07-25</time>
+      <time title="创建时间：2021-07-25 10:16:22 / 修改时间：11:14:46" itemprop="dateCreated datePublished" datetime="2021-07-25T10:16:22+08:00">2021-07-25</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -250,7 +250,91 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><img src="/2021/07/25/competition/ckrikozh90000ngw6cobw9n23/filled_copypaste_move.gif"> <img src="/2021/07/25/competition/ckrikozh90000ngw6cobw9n23/origin_copypaste_move.gif"></p>
+          <h1 id="图像补全">1. 图像补全</h1>
+<h2 id="deepfillv2">1.1. DeepfillV2</h2>
+<h4 id="来源2018-cvpr">● 来源：2018 CVPR</h4>
+<h4 id="代码tensorflow-pytorch">● 代码：<a target="_blank" rel="noopener" href="https://github.com/JiahuiYu/generative_inpainting">Tensorflow</a> \ <a target="_blank" rel="noopener" href="https://github.com/csqiangwen/DeepFillv2_Pytorch">Pytorch</a></h4>
+<h4 id="算法">● 算法</h4>
+<p>① 门控卷积（Gated Convolution）</p>
+<p><strong>传统卷积</strong>：</p>
+<p><img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/equ1_deepfillv2.png" width="400/"></p>
+<p>  缺陷：对于整个特征图，用同一个共享的卷积核进行操作，忽视了原图区域与缺失区域的差异性。</p>
+<p><strong>部分卷积（Partial Convolution）</strong>：</p>
+<p><img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/equ2_deepfillv2.png" width="400/"></p>
+<p>  缺陷：M为二值mask。0, 1mask的操作灵活性低。原图区域与缺失区域的mask为硬边界，不可学习。</p>
+<p><strong>门控卷积</strong>：</p>
+<p><img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/equ3_deepfillv2.png" width="400/"></p>
+<p>  优势：在部分卷积的基础上，将硬边界mask改进为可学习mask，提高了网络灵活性。</p>
+<p>② 网络结构</p>
+<p><img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/pic1_deepfillv2.png" width="600/"></p>
+<p>  生成器使用由粗到细的网络结构。第一阶段先生成粗略的恢复结果，再将粗略恢复结果输入到细化网络中进一步生成优化的修复结果。整个生成器中的卷积都为所提出的门控卷积结构。</p>
+<h4 id="在本次比赛中的实验结果">● 在本次比赛中的实验结果</h4>
+<table>
+<tr>
+<th>
+</th>
+<th>
+A榜
+</th>
+<th>
+B榜
+</th>
+</tr><tr>
+<th>
+得分
+</th>
+<th>
+</th>
+<th>
+</th>
+</tr></table>
+<p><strong>分析</strong>：</p>
+<p>  优势：可生成精细的图像补全结果，在前后帧图像变化很小，且mask为固定水印或一直遮挡同一物体的情况下效果很好。</p>
+<table>
+<tr>
+<td>
+<center>
+<img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/origin_deepfillv2_static.gif"> 原始图片
+</center>
+</td>
+<td>
+<center>
+<img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/filled_deepfillv2_static.gif"> 补全图片
+</center>
+</td>
+</tr>
+</table>
+<p>  缺陷：由于本算法为图像补全算法，因此无法利用前后帧信息，只能根据当前帧的已有内容进行补全，在前后帧内容或mask变化很大的情况下效果较差。</p>
+<table>
+<tr>
+<td>
+<center>
+<img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/origin_deepfillv2_move.gif"> 原始图片
+</center>
+</td>
+<td>
+<center>
+<img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/filled_deepfillv2_move.gif"> 补全图片
+</center>
+</td>
+</tr>
+</table>
+<h1 id="视频补全">2. 视频补全</h1>
+<h2 id="copy-paste-network">2.1. Copy-Paste Network</h2>
+<table>
+<tr>
+<td>
+<center>
+<img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/origin_copypaste_move.gif"> 原始图片
+</center>
+</td>
+<td>
+<center>
+<img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/filled_copypaste_move.gif"> 补全图片
+</center>
+</td>
+</tr>
+</table>
 
       
     </div>
@@ -277,7 +361,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/18/Hexo/ckrikia0a000c5ow62atf73fj/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/18/Hexo/ckrin2hek00083sw67w9g9fu0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/dog.jpg">
@@ -290,7 +374,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/05/18/Hexo/ckrikia0a000c5ow62atf73fj/" class="post-title-link" itemprop="url">hexo博客框架安装及使用</a>
+          <a href="/2021/05/18/Hexo/ckrin2hek00083sw67w9g9fu0/" class="post-title-link" itemprop="url">hexo博客框架安装及使用</a>
         </h2>
 
         <div class="post-meta-container">
@@ -333,7 +417,7 @@
           <p>对基础的hexo博客框架安装和部署进行学习和总结。</p>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2021/05/18/Hexo/ckrikia0a000c5ow62atf73fj/#more" rel="contents">
+              <a class="btn" href="/2021/05/18/Hexo/ckrin2hek00083sw67w9g9fu0/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>

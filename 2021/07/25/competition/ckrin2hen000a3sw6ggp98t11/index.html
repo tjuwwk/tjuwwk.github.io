@@ -20,30 +20,39 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
 
 <script class="next-config" data-name="main" type="application/json">{&quot;hostname&quot;:&quot;example.com&quot;,&quot;root&quot;:&quot;&#x2F;&quot;,&quot;images&quot;:&quot;&#x2F;images&quot;,&quot;scheme&quot;:&quot;Gemini&quot;,&quot;version&quot;:&quot;8.4.0&quot;,&quot;exturl&quot;:false,&quot;sidebar&quot;:{&quot;position&quot;:&quot;left&quot;,&quot;display&quot;:&quot;post&quot;,&quot;padding&quot;:18,&quot;offset&quot;:12},&quot;copycode&quot;:false,&quot;bookmark&quot;:{&quot;enable&quot;:false,&quot;color&quot;:&quot;#222&quot;,&quot;save&quot;:&quot;auto&quot;},&quot;fancybox&quot;:false,&quot;mediumzoom&quot;:false,&quot;lazyload&quot;:false,&quot;pangu&quot;:false,&quot;comments&quot;:{&quot;style&quot;:&quot;tabs&quot;,&quot;active&quot;:null,&quot;storage&quot;:true,&quot;lazyload&quot;:false,&quot;nav&quot;:null},&quot;motion&quot;:{&quot;enable&quot;:true,&quot;async&quot;:false,&quot;transition&quot;:{&quot;post_block&quot;:&quot;fadeIn&quot;,&quot;post_header&quot;:&quot;fadeInDown&quot;,&quot;post_body&quot;:&quot;fadeInDown&quot;,&quot;coll_header&quot;:&quot;fadeInLeft&quot;,&quot;sidebar&quot;:&quot;fadeInUp&quot;}},&quot;prism&quot;:false,&quot;i18n&quot;:{&quot;placeholder&quot;:&quot;搜索...&quot;,&quot;empty&quot;:&quot;没有找到任何搜索结果：${query}&quot;,&quot;hits_time&quot;:&quot;找到 ${hits} 个搜索结果（用时 ${time} 毫秒）&quot;,&quot;hits&quot;:&quot;找到 ${hits} 个搜索结果&quot;}}</script>
-<meta name="description" content="对基础的hexo博客框架安装和部署进行学习和总结。">
+<meta name="description" content="1. 图像补全 1.1. DeepfillV2 ● 来源：2018 CVPR ● 代码：Tensorflow \ Pytorch ● 算法 ① 门控卷积（Gated Convolution） 传统卷积：    缺陷：对于整个特征图，用同一个共享的卷积核进行操作，忽视了原图区域与缺失区域的差异性。 部分卷积（Partial Convolution）：    缺陷：M为二值mas">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo博客框架安装及使用">
-<meta property="og:url" content="http://example.com/2021/05/18/Hexo/ckrikia0a000c5ow62atf73fj/index.html">
+<meta property="og:title" content="比赛总结">
+<meta property="og:url" content="http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/index.html">
 <meta property="og:site_name" content="WWK的博客">
-<meta property="og:description" content="对基础的hexo博客框架安装和部署进行学习和总结。">
+<meta property="og:description" content="1. 图像补全 1.1. DeepfillV2 ● 来源：2018 CVPR ● 代码：Tensorflow \ Pytorch ● 算法 ① 门控卷积（Gated Convolution） 传统卷积：    缺陷：对于整个特征图，用同一个共享的卷积核进行操作，忽视了原图区域与缺失区域的差异性。 部分卷积（Partial Convolution）：    缺陷：M为二值mas">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/2021/05/18/Hexo/ckrikia0a000c5ow62atf73fj/hexo-s.jpg">
-<meta property="article:published_time" content="2021-05-18T15:48:14.000Z">
-<meta property="article:modified_time" content="2021-05-19T07:18:55.523Z">
+<meta property="og:image" content="http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/equ1_deepfillv2.png">
+<meta property="og:image" content="http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/equ2_deepfillv2.png">
+<meta property="og:image" content="http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/equ3_deepfillv2.png">
+<meta property="og:image" content="http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/pic1_deepfillv2.png">
+<meta property="og:image" content="http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/origin_deepfillv2_static.gif">
+<meta property="og:image" content="http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/filled_deepfillv2_static.gif">
+<meta property="og:image" content="http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/origin_deepfillv2_move.gif">
+<meta property="og:image" content="http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/filled_deepfillv2_move.gif">
+<meta property="og:image" content="http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/origin_copypaste_move.gif">
+<meta property="og:image" content="http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/filled_copypaste_move.gif">
+<meta property="article:published_time" content="2021-07-25T02:16:22.000Z">
+<meta property="article:modified_time" content="2021-07-25T03:14:46.386Z">
 <meta property="article:author" content="Weikang Wang">
-<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="competition">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2021/05/18/Hexo/ckrikia0a000c5ow62atf73fj/hexo-s.jpg">
+<meta name="twitter:image" content="http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/equ1_deepfillv2.png">
 
 
-<link rel="canonical" href="http://example.com/2021/05/18/Hexo/ckrikia0a000c5ow62atf73fj/">
+<link rel="canonical" href="http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{&quot;sidebar&quot;:&quot;&quot;,&quot;isHome&quot;:false,&quot;isPost&quot;:true,&quot;lang&quot;:&quot;zh-CN&quot;,&quot;comments&quot;:true,&quot;permalink&quot;:&quot;http:&#x2F;&#x2F;example.com&#x2F;2021&#x2F;05&#x2F;18&#x2F;Hexo&#x2F;ckrikia0a000c5ow62atf73fj&#x2F;&quot;,&quot;path&quot;:&quot;2021&#x2F;05&#x2F;18&#x2F;Hexo&#x2F;ckrikia0a000c5ow62atf73fj&#x2F;&quot;,&quot;title&quot;:&quot;hexo博客框架安装及使用&quot;}</script>
+<script class="next-config" data-name="page" type="application/json">{&quot;sidebar&quot;:&quot;&quot;,&quot;isHome&quot;:false,&quot;isPost&quot;:true,&quot;lang&quot;:&quot;zh-CN&quot;,&quot;comments&quot;:true,&quot;permalink&quot;:&quot;http:&#x2F;&#x2F;example.com&#x2F;2021&#x2F;07&#x2F;25&#x2F;competition&#x2F;ckrin2hen000a3sw6ggp98t11&#x2F;&quot;,&quot;path&quot;:&quot;2021&#x2F;07&#x2F;25&#x2F;competition&#x2F;ckrin2hen000a3sw6ggp98t11&#x2F;&quot;,&quot;title&quot;:&quot;比赛总结&quot;}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">&quot;&quot;</script>
-<title>hexo博客框架安装及使用 | WWK的博客</title><script src="/js/config.js"></script>
+<title>比赛总结 | WWK的博客</title><script src="/js/config.js"></script>
   
 
 
@@ -133,7 +142,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85git"><span class="nav-number">1.</span> <span class="nav-text">1.2.安装Git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85hexo"><span class="nav-number">2.</span> <span class="nav-text">1.3.安装hexo</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2"><span class="nav-number"></span> <span class="nav-text">2.创建hexo博客</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0github"><span class="nav-number"></span> <span class="nav-text">3.将博客部署到github</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83"><span class="nav-number"></span> <span class="nav-text">参考</span></a></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9B%BE%E5%83%8F%E8%A1%A5%E5%85%A8"><span class="nav-number">1.</span> <span class="nav-text">1. 图像补全</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#deepfillv2"><span class="nav-number">1.1.</span> <span class="nav-text">1.1. DeepfillV2</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9D%A5%E6%BA%902018-cvpr"><span class="nav-number">1.1.0.1.</span> <span class="nav-text">● 来源：2018 CVPR</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81tensorflow-pytorch"><span class="nav-number">1.1.0.2.</span> <span class="nav-text">● 代码：Tensorflow \ Pytorch</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AE%97%E6%B3%95"><span class="nav-number">1.1.0.3.</span> <span class="nav-text">● 算法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9C%A8%E6%9C%AC%E6%AC%A1%E6%AF%94%E8%B5%9B%E4%B8%AD%E7%9A%84%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C"><span class="nav-number">1.1.0.4.</span> <span class="nav-text">● 在本次比赛中的实验结果</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%A7%86%E9%A2%91%E8%A1%A5%E5%85%A8"><span class="nav-number">2.</span> <span class="nav-text">2. 视频补全</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#copy-paste-network"><span class="nav-number">2.1.</span> <span class="nav-text">2.1. Copy-Paste Network</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -212,7 +221,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/18/Hexo/ckrikia0a000c5ow62atf73fj/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/dog.jpg">
@@ -225,7 +234,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          hexo博客框架安装及使用
+          比赛总结
         </h1>
 
         <div class="post-meta-container">
@@ -235,23 +244,17 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2021-05-18 23:48:14" itemprop="dateCreated datePublished" datetime="2021-05-18T23:48:14+08:00">2021-05-18</time>
+      <time title="创建时间：2021-07-25 10:16:22 / 修改时间：11:14:46" itemprop="dateCreated datePublished" datetime="2021-07-25T10:16:22+08:00">2021-07-25</time>
     </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-05-19 15:18:55" itemprop="dateModified" datetime="2021-05-19T15:18:55+08:00">2021-05-19</time>
-      </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Hexo/" itemprop="url" rel="index"><span itemprop="name">Hexo</span></a>
+          <a href="/categories/competition/" itemprop="url" rel="index"><span itemprop="name">competition</span></a>
         </span>
     </span>
 
@@ -265,27 +268,91 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>对基础的hexo博客框架安装和部署进行学习和总结。 <span id="more"></span> ## 1.环境配置 针对windows环境 ### 1.1.安装<a target="_blank" rel="noopener" href="https://nodejs.org/en/">node.js</a> node版本查看 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ node -v</span><br></pre></td></tr></table></figure></p>
-<p>npm版本查看</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm -v</span><br></pre></td></tr></table></figure>
-<h3 id="安装git">1.2.安装<a target="_blank" rel="noopener" href="http://git-scm.com/">Git</a></h3>
-<h3 id="安装hexo">1.3.安装hexo</h3>
-<p>在终端输入 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p>
-<p>hexo版本查看 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo -v</span><br></pre></td></tr></table></figure></p>
-<h2 id="创建hexo博客">2.创建hexo博客</h2>
-<p>创建新文件夹，如创建F:/blog, 在终端中进入此文件夹 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> F:/blog</span><br></pre></td></tr></table></figure></p>
-<p>在创建的文件夹中构建hexo框架 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure></p>
-<p>启动博客 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure></p>
-<p>出现如下提示 <img src="/2021/05/18/Hexo/ckrikia0a000c5ow62atf73fj/hexo-s.jpg"> 在浏览器中输入<a target="_blank" rel="noopener" href="http://localhost:4000">http://localhost:4000</a>，则可以显示默认创建的博客（可以用于预览）。</p>
-<p>创建新博客 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n [博客名]</span><br></pre></td></tr></table></figure></p>
-<p>清除缓存文件 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure></p>
-<p>生成 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure></p>
-<p>删除文章时，直接将文章对应的.md文件删除，再运行生成即可。</p>
-<h2 id="将博客部署到github">3.将博客部署到github</h2>
-<p>首先在github中创建新的repository，并命名为<code>用户名.github.io</code></p>
-<p>安装部署插件 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure> 在<code>F:/blog</code>文件夹中的<code>_config.yaml</code>文件中对deploy项进行配置 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">    <span class="built_in">type</span>: git</span><br><span class="line">    repo: [github中新建的博客repository的地址.git]</span><br><span class="line">    branch: main</span><br></pre></td></tr></table></figure> 部署 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure></p>
-<h2 id="参考">参考</h2>
-<p>[1] https://www.bilibili.com/video/BV1Yb411a7ty/?spm_id_from=trigger_reload [2] https://hexo.io/zh-cn/docs/</p>
+        <h1 id="图像补全">1. 图像补全</h1>
+<h2 id="deepfillv2">1.1. DeepfillV2</h2>
+<h4 id="来源2018-cvpr">● 来源：2018 CVPR</h4>
+<h4 id="代码tensorflow-pytorch">● 代码：<a target="_blank" rel="noopener" href="https://github.com/JiahuiYu/generative_inpainting">Tensorflow</a> \ <a target="_blank" rel="noopener" href="https://github.com/csqiangwen/DeepFillv2_Pytorch">Pytorch</a></h4>
+<h4 id="算法">● 算法</h4>
+<p>① 门控卷积（Gated Convolution）</p>
+<p><strong>传统卷积</strong>：</p>
+<p><img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/equ1_deepfillv2.png" width="400/"></p>
+<p>  缺陷：对于整个特征图，用同一个共享的卷积核进行操作，忽视了原图区域与缺失区域的差异性。</p>
+<p><strong>部分卷积（Partial Convolution）</strong>：</p>
+<p><img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/equ2_deepfillv2.png" width="400/"></p>
+<p>  缺陷：M为二值mask。0, 1mask的操作灵活性低。原图区域与缺失区域的mask为硬边界，不可学习。</p>
+<p><strong>门控卷积</strong>：</p>
+<p><img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/equ3_deepfillv2.png" width="400/"></p>
+<p>  优势：在部分卷积的基础上，将硬边界mask改进为可学习mask，提高了网络灵活性。</p>
+<p>② 网络结构</p>
+<p><img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/pic1_deepfillv2.png" width="600/"></p>
+<p>  生成器使用由粗到细的网络结构。第一阶段先生成粗略的恢复结果，再将粗略恢复结果输入到细化网络中进一步生成优化的修复结果。整个生成器中的卷积都为所提出的门控卷积结构。</p>
+<h4 id="在本次比赛中的实验结果">● 在本次比赛中的实验结果</h4>
+<table>
+<tr>
+<th>
+</th>
+<th>
+A榜
+</th>
+<th>
+B榜
+</th>
+</tr><tr>
+<th>
+得分
+</th>
+<th>
+</th>
+<th>
+</th>
+</tr></table>
+<p><strong>分析</strong>：</p>
+<p>  优势：可生成精细的图像补全结果，在前后帧图像变化很小，且mask为固定水印或一直遮挡同一物体的情况下效果很好。</p>
+<table>
+<tr>
+<td>
+<center>
+<img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/origin_deepfillv2_static.gif"> 原始图片
+</center>
+</td>
+<td>
+<center>
+<img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/filled_deepfillv2_static.gif"> 补全图片
+</center>
+</td>
+</tr>
+</table>
+<p>  缺陷：由于本算法为图像补全算法，因此无法利用前后帧信息，只能根据当前帧的已有内容进行补全，在前后帧内容或mask变化很大的情况下效果较差。</p>
+<table>
+<tr>
+<td>
+<center>
+<img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/origin_deepfillv2_move.gif"> 原始图片
+</center>
+</td>
+<td>
+<center>
+<img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/filled_deepfillv2_move.gif"> 补全图片
+</center>
+</td>
+</tr>
+</table>
+<h1 id="视频补全">2. 视频补全</h1>
+<h2 id="copy-paste-network">2.1. Copy-Paste Network</h2>
+<table>
+<tr>
+<td>
+<center>
+<img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/origin_copypaste_move.gif"> 原始图片
+</center>
+</td>
+<td>
+<center>
+<img src="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/filled_copypaste_move.gif"> 补全图片
+</center>
+</td>
+</tr>
+</table>
 
     </div>
 
@@ -295,18 +362,18 @@
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
+              <a href="/tags/competition/" rel="tag"><i class="fa fa-tag"></i> competition</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
+                <a href="/2021/05/18/Hexo/ckrin2hek00083sw67w9g9fu0/" rel="prev" title="hexo博客框架安装及使用">
+                  <i class="fa fa-chevron-left"></i> hexo博客框架安装及使用
+                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2021/07/25/competition/ckrikozh90000ngw6cobw9n23/" rel="next" title="比赛总结">
-                  比赛总结 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
@@ -331,11 +398,11 @@
     </label>
     <select class="lang-select" data-canonical="" aria-label="选择语言">
       
-        <option value="zh-CN" data-href="/2021/05/18/Hexo/ckrikia0a000c5ow62atf73fj/" selected="">
+        <option value="zh-CN" data-href="/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/" selected="">
           简体中文
         </option>
       
-        <option value="en" data-href="/en/2021/05/18/Hexo/ckrikia0a000c5ow62atf73fj/" selected="">
+        <option value="en" data-href="/en/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/" selected="">
           English
         </option>
       
