@@ -2,7 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2021/08/30/Computer-Vision/Multi-Modal/Video-Text/Segmentation/cksyd2mzu000j7sw615che66m/</loc>
+    <loc>http://example.com/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/</loc>
+    
+    <lastmod>2021-08-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/2021/05/24/reading-note/Video/Multi-Modal/Video-Text/Retrieval/cksyobjo5000nhkw62ssz1amd/</loc>
+    
+    <lastmod>2021-08-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/2021/05/18/Hexo/cksyobjnr0001hkw6ani2750d/</loc>
+    
+    <lastmod>2021-08-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/2021/08/30/Computer-Vision/Multi-Modal/Video-Text/Segmentation/cksyobjo3000jhkw640mo2teg/</loc>
     
     <lastmod>2021-08-30</lastmod>
     
@@ -30,28 +51,21 @@
   </url>
   
   <url>
-    <loc>http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/</loc>
+    <loc>http://example.com/2021/07/25/competition/cksyobjo4000khkw68at6h8g6/</loc>
     
     <lastmod>2021-07-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2021/06/09/reading-note/Video/Multi-Modal/Video-Sound/Localization/cksyd2mzx000p7sw6gzecanw4/</loc>
+    <loc>http://example.com/2021/06/09/reading-note/Video/Multi-Modal/Video-Sound/Localization/cksyobjo6000phkw6a8ym7d9m/</loc>
     
     <lastmod>2021-06-09</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2021/05/19/reading-note/Video/Multi-Modal/Video-Optical-Flow/Motion-Prediction/cksyd2mzx000o7sw65xzc4z57/</loc>
-    
-    <lastmod>2021-06-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/2021/05/24/reading-note/Video/Multi-Modal/Video-Text/Retrieval/cksyd2mzw000n7sw6b0wvapyp/</loc>
+    <loc>http://example.com/2021/05/19/reading-note/Video/Multi-Modal/Video-Optical-Flow/Motion-Prediction/cksyobjo6000ohkw6evglfp2s/</loc>
     
     <lastmod>2021-06-09</lastmod>
     
@@ -108,13 +122,6 @@
   
   <url>
     <loc>http://example.com/sitemap/index.html</loc>
-    
-    <lastmod>2021-05-19</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/2021/05/18/Hexo/cksyd2mzi00017sw6gmk70f4t/</loc>
     
     <lastmod>2021-05-19</lastmod>
     
@@ -199,6 +206,20 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>http://example.com/tags/Image/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/Segmentation/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
@@ -259,6 +280,13 @@
   
   <url>
     <loc>http://example.com/categories/Computer-Vision/Multi-Modal/Video-Text/Segmentation/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/reading-note/Video/Segmentation/</loc>
     <lastmod>2021-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

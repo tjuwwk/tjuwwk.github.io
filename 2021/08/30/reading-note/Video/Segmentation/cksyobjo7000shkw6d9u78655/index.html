@@ -20,39 +20,37 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
 
 <script class="next-config" data-name="main" type="application/json">{&quot;hostname&quot;:&quot;example.com&quot;,&quot;root&quot;:&quot;&#x2F;&quot;,&quot;images&quot;:&quot;&#x2F;images&quot;,&quot;scheme&quot;:&quot;Gemini&quot;,&quot;version&quot;:&quot;8.4.0&quot;,&quot;exturl&quot;:false,&quot;sidebar&quot;:{&quot;position&quot;:&quot;left&quot;,&quot;display&quot;:&quot;post&quot;,&quot;padding&quot;:18,&quot;offset&quot;:12},&quot;copycode&quot;:false,&quot;bookmark&quot;:{&quot;enable&quot;:false,&quot;color&quot;:&quot;#222&quot;,&quot;save&quot;:&quot;auto&quot;},&quot;fancybox&quot;:false,&quot;mediumzoom&quot;:false,&quot;lazyload&quot;:false,&quot;pangu&quot;:false,&quot;comments&quot;:{&quot;style&quot;:&quot;tabs&quot;,&quot;active&quot;:null,&quot;storage&quot;:true,&quot;lazyload&quot;:false,&quot;nav&quot;:null},&quot;motion&quot;:{&quot;enable&quot;:true,&quot;async&quot;:false,&quot;transition&quot;:{&quot;post_block&quot;:&quot;fadeIn&quot;,&quot;post_header&quot;:&quot;fadeInDown&quot;,&quot;post_body&quot;:&quot;fadeInDown&quot;,&quot;coll_header&quot;:&quot;fadeInLeft&quot;,&quot;sidebar&quot;:&quot;fadeInUp&quot;}},&quot;prism&quot;:false,&quot;i18n&quot;:{&quot;placeholder&quot;:&quot;搜索...&quot;,&quot;empty&quot;:&quot;没有找到任何搜索结果：${query}&quot;,&quot;hits_time&quot;:&quot;找到 ${hits} 个搜索结果（用时 ${time} 毫秒）&quot;,&quot;hits&quot;:&quot;找到 ${hits} 个搜索结果&quot;}}</script>
-<meta name="description" content="图像、视频补全算法">
+<meta name="description" content="论文题目：Fine-grained Video-Text Retrieval with Hierarchical Graph Reasoning">
 <meta property="og:type" content="article">
-<meta property="og:title" content="比赛总结">
-<meta property="og:url" content="http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/index.html">
+<meta property="og:title" content="阅读笔记-Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation">
+<meta property="og:url" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/index.html">
 <meta property="og:site_name" content="WWK的博客">
-<meta property="og:description" content="图像、视频补全算法">
+<meta property="og:description" content="论文题目：Fine-grained Video-Text Retrieval with Hierarchical Graph Reasoning">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/equ1_deepfillv2.png">
-<meta property="og:image" content="http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/equ2_deepfillv2.png">
-<meta property="og:image" content="http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/equ3_deepfillv2.png">
-<meta property="og:image" content="http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/pic1_deepfillv2.png">
-<meta property="og:image" content="http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/origin_deepfillv2_static.gif">
-<meta property="og:image" content="http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/filled_deepfillv2_static.gif">
-<meta property="og:image" content="http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/origin_deepfillv2_move.gif">
-<meta property="og:image" content="http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/filled_deepfillv2_move.gif">
-<meta property="og:image" content="http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/origin_copypaste_move.gif">
-<meta property="og:image" content="http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/filled_copypaste_move.gif">
-<meta property="article:published_time" content="2021-07-25T02:16:22.000Z">
-<meta property="article:modified_time" content="2021-07-25T03:39:02.966Z">
+<meta property="og:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/im1.jpg">
+<meta property="og:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/im2.jpg">
+<meta property="og:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/im3.jpg">
+<meta property="og:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/im4.jpg">
+<meta property="og:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/im5.jpg">
+<meta property="article:published_time" content="2021-08-30T12:45:03.000Z">
+<meta property="article:modified_time" content="2021-08-30T13:18:36.160Z">
 <meta property="article:author" content="Weikang Wang">
-<meta property="article:tag" content="competition">
+<meta property="article:tag" content="Computer Vision">
+<meta property="article:tag" content="阅读笔记">
+<meta property="article:tag" content="Image">
+<meta property="article:tag" content="Segmentation">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/equ1_deepfillv2.png">
+<meta name="twitter:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/im1.jpg">
 
 
-<link rel="canonical" href="http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/">
+<link rel="canonical" href="http://example.com/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{&quot;sidebar&quot;:&quot;&quot;,&quot;isHome&quot;:false,&quot;isPost&quot;:true,&quot;lang&quot;:&quot;zh-CN&quot;,&quot;comments&quot;:true,&quot;permalink&quot;:&quot;http:&#x2F;&#x2F;example.com&#x2F;2021&#x2F;07&#x2F;25&#x2F;competition&#x2F;cksyd2mzv000k7sw6f66vdb7r&#x2F;&quot;,&quot;path&quot;:&quot;2021&#x2F;07&#x2F;25&#x2F;competition&#x2F;cksyd2mzv000k7sw6f66vdb7r&#x2F;&quot;,&quot;title&quot;:&quot;比赛总结&quot;}</script>
+<script class="next-config" data-name="page" type="application/json">{&quot;sidebar&quot;:&quot;&quot;,&quot;isHome&quot;:false,&quot;isPost&quot;:true,&quot;lang&quot;:&quot;zh-CN&quot;,&quot;comments&quot;:true,&quot;permalink&quot;:&quot;http:&#x2F;&#x2F;example.com&#x2F;2021&#x2F;08&#x2F;30&#x2F;reading-note&#x2F;Video&#x2F;Segmentation&#x2F;cksyobjo7000shkw6d9u78655&#x2F;&quot;,&quot;path&quot;:&quot;2021&#x2F;08&#x2F;30&#x2F;reading-note&#x2F;Video&#x2F;Segmentation&#x2F;cksyobjo7000shkw6d9u78655&#x2F;&quot;,&quot;title&quot;:&quot;阅读笔记-Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation&quot;}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">&quot;&quot;</script>
-<title>比赛总结 | WWK的博客</title><script src="/js/config.js"></script>
+<title>阅读笔记-Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation | WWK的博客</title><script src="/js/config.js"></script>
   
 
 
@@ -142,7 +140,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9B%BE%E5%83%8F%E8%A1%A5%E5%85%A8"><span class="nav-number">1.</span> <span class="nav-text">1. 图像补全</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#deepfillv2"><span class="nav-number">1.1.</span> <span class="nav-text">1.1. DeepfillV2</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9D%A5%E6%BA%902018-cvpr"><span class="nav-number">1.1.0.1.</span> <span class="nav-text">● 来源：2018 CVPR</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81tensorflow-pytorch"><span class="nav-number">1.1.0.2.</span> <span class="nav-text">● 代码：Tensorflow \ Pytorch</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E6%80%9D%E8%B7%AF%E4%BD%BF%E7%94%A8%E9%97%A8%E6%8E%A7%E5%8D%B7%E7%A7%AF%E8%87%AA%E9%80%82%E5%BA%94%E5%9C%B0%E6%8E%A7%E5%88%B6%E5%8E%9F%E5%9B%BE%E5%8C%BA%E5%9F%9F%E4%B8%8E%E7%BC%BA%E5%A4%B1%E5%8C%BA%E5%9F%9F%E7%9A%84%E6%9D%83%E9%87%8D"><span class="nav-number">1.1.0.3.</span> <span class="nav-text">● 主要思路：使用门控卷积自适应地控制原图区域与缺失区域的权重。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AE%97%E6%B3%95"><span class="nav-number">1.1.0.4.</span> <span class="nav-text">● 算法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9C%A8%E6%9C%AC%E6%AC%A1%E6%AF%94%E8%B5%9B%E4%B8%AD%E7%9A%84%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C"><span class="nav-number">1.1.0.5.</span> <span class="nav-text">● 在本次比赛中的实验结果</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%A7%86%E9%A2%91%E8%A1%A5%E5%85%A8"><span class="nav-number">2.</span> <span class="nav-text">2. 视频补全</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#copy-paste-network"><span class="nav-number">2.1.</span> <span class="nav-text">2.1. Copy-Paste Network</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9D%A5%E6%BA%902019-iccv"><span class="nav-number">2.1.0.1.</span> <span class="nav-text">● 来源：2019 ICCV</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81pytorch"><span class="nav-number">2.1.0.2.</span> <span class="nav-text">● 代码：Pytorch</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E6%80%9D%E8%B7%AF%E5%88%A9%E7%94%A8%E5%89%8D%E5%90%8E%E5%B8%A7%E4%BF%A1%E6%81%AF%E8%A1%A5%E5%85%A8%E5%BD%93%E5%89%8D%E5%B8%A7"><span class="nav-number">2.1.0.3.</span> <span class="nav-text">● 主要思路：利用前后帧信息补全当前帧。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AE%97%E6%B3%95-1"><span class="nav-number">2.1.0.4.</span> <span class="nav-text">● 算法</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%B1%E7%9B%91%E7%9D%A3%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2%E4%B8%AD%E5%AD%98%E5%9C%A8%E7%9A%84%E6%8C%91%E6%88%98"><span class="nav-number">1.</span> <span class="nav-text">弱监督语义分割中存在的挑战：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%AC%E6%96%87%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="nav-number">2.</span> <span class="nav-text">本文的解决方案：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AE%97%E6%B3%95%E7%BB%93%E6%9E%84"><span class="nav-number">3.</span> <span class="nav-text">算法结构</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -158,20 +156,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-count">16</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -221,7 +219,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/dog.jpg">
@@ -234,7 +232,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          比赛总结
+          阅读笔记-Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation
         </h1>
 
         <div class="post-meta-container">
@@ -246,7 +244,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2021-07-25 10:16:22 / 修改时间：11:39:02" itemprop="dateCreated datePublished" datetime="2021-07-25T10:16:22+08:00">2021-07-25</time>
+      <time title="创建时间：2021-08-30 20:45:03 / 修改时间：21:18:36" itemprop="dateCreated datePublished" datetime="2021-08-30T20:45:03+08:00">2021-08-30</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -254,7 +252,15 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/competition/" itemprop="url" rel="index"><span itemprop="name">competition</span></a>
+          <a href="/categories/reading-note/" itemprop="url" rel="index"><span itemprop="name">阅读笔记</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/reading-note/Video/" itemprop="url" rel="index"><span itemprop="name">Video</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/reading-note/Video/Segmentation/" itemprop="url" rel="index"><span itemprop="name">Segmentation</span></a>
         </span>
     </span>
 
@@ -268,97 +274,37 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>图像、视频补全算法 <span id="more"></span></p>
-<h1 id="图像补全">1. 图像补全</h1>
-<h2 id="deepfillv2">1.1. DeepfillV2</h2>
-<h4 id="来源2018-cvpr">● 来源：2018 CVPR</h4>
-<h4 id="代码tensorflow-pytorch">● 代码：<a target="_blank" rel="noopener" href="https://github.com/JiahuiYu/generative_inpainting">Tensorflow</a> \ <a target="_blank" rel="noopener" href="https://github.com/csqiangwen/DeepFillv2_Pytorch">Pytorch</a></h4>
-<h4 id="主要思路使用门控卷积自适应地控制原图区域与缺失区域的权重">● 主要思路：使用门控卷积自适应地控制原图区域与缺失区域的权重。</h4>
-<h4 id="算法">● 算法</h4>
-<p>① 门控卷积（Gated Convolution）</p>
-<p><strong>传统卷积</strong>：</p>
-<p><img src="/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/equ1_deepfillv2.png" width="400/"></p>
-<p>  缺陷：对于整个特征图，用同一个共享的卷积核进行操作，忽视了原图区域与缺失区域的差异性。</p>
-<p><strong>部分卷积（Partial Convolution）</strong>：</p>
-<p><img src="/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/equ2_deepfillv2.png" width="400/"></p>
-<p>  缺陷：M为二值mask。0, 1mask的操作灵活性低。原图区域与缺失区域的mask为硬边界，不可学习。</p>
-<p><strong>门控卷积</strong>：</p>
-<p><img src="/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/equ3_deepfillv2.png" width="400/"></p>
-<p>  优势：在部分卷积的基础上，将硬边界mask改进为可学习mask，提高了网络灵活性。</p>
-<p>② 网络结构</p>
-<p><img src="/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/pic1_deepfillv2.png" width="600/"></p>
-<p>  生成器使用由粗到细的网络结构。第一阶段先生成粗略的恢复结果，再将粗略恢复结果输入到细化网络中进一步生成优化的修复结果。整个生成器中的卷积都为所提出的门控卷积结构。</p>
-<h4 id="在本次比赛中的实验结果">● 在本次比赛中的实验结果</h4>
-<table>
-<tr>
-<th>
-</th>
-<th>
-A榜
-</th>
-<th>
-B榜
-</th>
-</tr><tr>
-<th>
-得分
-</th>
-<th>
-</th>
-<th>
-</th>
-</tr></table>
-<p><strong>分析</strong>：</p>
-<p>  优势：可生成精细的图像补全结果，在前后帧图像变化很小，且mask为固定水印或一直遮挡同一物体的情况下效果很好。</p>
-<table>
-<tr>
-<td>
-<center>
-<img src="/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/origin_deepfillv2_static.gif"> 原始图片
-</center>
-</td>
-<td>
-<center>
-<img src="/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/filled_deepfillv2_static.gif"> 补全图片
-</center>
-</td>
-</tr>
-</table>
-<p>  缺陷：由于本算法为图像补全算法，因此无法利用前后帧信息，只能根据当前帧的已有内容进行补全，在前后帧内容或mask变化很大的情况下效果较差。</p>
-<table>
-<tr>
-<td>
-<center>
-<img src="/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/origin_deepfillv2_move.gif"> 原始图片
-</center>
-</td>
-<td>
-<center>
-<img src="/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/filled_deepfillv2_move.gif"> 补全图片
-</center>
-</td>
-</tr>
-</table>
-<h1 id="视频补全">2. 视频补全</h1>
-<h2 id="copy-paste-network">2.1. Copy-Paste Network</h2>
-<h4 id="来源2019-iccv">● 来源：2019 ICCV</h4>
-<h4 id="代码pytorch">● 代码：<a target="_blank" rel="noopener" href="https://github.com/shleecs/Copy-and-Paste-Networks-for-Deep-Video-Inpainting">Pytorch</a></h4>
-<h4 id="主要思路利用前后帧信息补全当前帧">● 主要思路：利用前后帧信息补全当前帧。</h4>
-<h4 id="算法-1">● 算法</h4>
-<table>
-<tr>
-<td>
-<center>
-<img src="/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/origin_copypaste_move.gif"> 原始图片
-</center>
-</td>
-<td>
-<center>
-<img src="/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/filled_copypaste_move.gif"> 补全图片
-</center>
-</td>
-</tr>
-</table>
+        <p>论文题目：Fine-grained Video-Text Retrieval with Hierarchical Graph Reasoning</p>
+<span id="more"></span>
+<p>文章来源：2020CVPR</p>
+<p>文章链接：<a target="_blank" rel="noopener" href="https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Railroad_Is_Not_a_Train_Saliency_As_Pseudo-Pixel_Supervision_for_CVPR_2021_paper.pdf">文章链接</a></p>
+<p>代码链接：<a target="_blank" rel="noopener" href="https://github.com/halbielee/EPS">代码链接</a></p>
+<h3 id="弱监督语义分割中存在的挑战">弱监督语义分割中存在的挑战：</h3>
+<ol type="1">
+<li>目标位置的分割结果只包含目标的一部分。</li>
+<li>边界不匹配问题。</li>
+<li>无法将像素相近的目标区分开。</li>
+</ol>
+<h3 id="本文的解决方案">本文的解决方案：</h3>
+<ol type="1">
+<li>引入显著性图，用于分割出明确的目标边界。</li>
+<li>使用分类网络的结果，用于区分不同目标类别。</li>
+<li>将两者相结合，使网络可以同时实现良好的分割边界与分割类别。</li>
+</ol>
+<h3 id="算法结构">算法结构</h3>
+<p><img src="/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/im1.jpg"></p>
+<ol type="1">
+<li>生成预测的显著性图。   通过分类网络生成C个前景目标类与1个背景类，将所有前景目标类设为一类，则预测的显著性图可表示为：</li>
+</ol>
+<p><img src="/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/im2.jpg"></p>
+<p>由于场景中的显著目标可能只是所有类别中的一小类，因此直接将所有前景目标当作显著性目标是不合理的。因此，文中将类别定位图与显著性图前景重叠率大于某个阈值的目标作为前景目标：</p>
+<p><img src="/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/im3.jpg"></p>
+<ol start="2" type="1">
+<li>联合训练   训练损失主要分为两步分。第一部分是将类别图生成的显著性图与实际显著性图做loss：</li>
+</ol>
+<p><img src="/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/im4.jpg"></p>
+<p>实际显著性图由一个现有的显著性预测网络生成。第二部分是类别损失，由定位图经过全局平均池化后生成的类别与实际类别做损失得到：</p>
+<p><img src="/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/im5.jpg"></p>
 
     </div>
 
@@ -368,21 +314,21 @@ B榜
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/competition/" rel="tag"><i class="fa fa-tag"></i> competition</a>
+              <a href="/tags/Computer-Vision/" rel="tag"><i class="fa fa-tag"></i> Computer Vision</a>
+              <a href="/tags/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/" rel="tag"><i class="fa fa-tag"></i> 阅读笔记</a>
+              <a href="/tags/Image/" rel="tag"><i class="fa fa-tag"></i> Image</a>
+              <a href="/tags/Segmentation/" rel="tag"><i class="fa fa-tag"></i> Segmentation</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2021/06/09/reading-note/Video/Multi-Modal/Video-Sound/Localization/cksyd2mzx000p7sw6gzecanw4/" rel="prev" title="阅读笔记-Localizing Visual Sounds the Hard Way">
-                  <i class="fa fa-chevron-left"></i> 阅读笔记-Localizing Visual Sounds the Hard Way
+                <a href="/2021/08/30/Computer-Vision/Multi-Modal/Video-Text/Segmentation/cksyobjo3000jhkw640mo2teg/" rel="prev" title="基于文本的视频分割算法总结">
+                  <i class="fa fa-chevron-left"></i> 基于文本的视频分割算法总结
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2021/08/30/Computer-Vision/Multi-Modal/Video-Text/Segmentation/cksyd2mzu000j7sw615che66m/" rel="next" title="基于文本的视频分割算法总结">
-                  基于文本的视频分割算法总结 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
@@ -407,11 +353,11 @@ B榜
     </label>
     <select class="lang-select" data-canonical="" aria-label="选择语言">
       
-        <option value="zh-CN" data-href="/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/" selected="">
+        <option value="zh-CN" data-href="/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/" selected="">
           简体中文
         </option>
       
-        <option value="en" data-href="/en/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/" selected="">
+        <option value="en" data-href="/en/2021/08/30/reading-note/Video/Segmentation/cksyobjo7000shkw6d9u78655/" selected="">
           English
         </option>
       
@@ -453,7 +399,7 @@ B榜
 
   
 
-  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{&quot;enable&quot;:true,&quot;tags&quot;:&quot;ams&quot;,&quot;js&quot;:&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;npm&#x2F;mathjax@3.1.4&#x2F;es5&#x2F;tex-mml-chtml.js&quot;}</script>
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{&quot;enable&quot;:true,&quot;tags&quot;:&quot;ams&quot;,&quot;js&quot;:&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;npm&#x2F;mathjax@3.1.4&#x2F;es5&#x2F;tex-mml-chtml.js&quot;}</script>
 <script src="/js/third-party/math/mathjax.js"></script>
 
 
