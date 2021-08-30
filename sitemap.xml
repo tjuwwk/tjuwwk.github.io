@@ -2,21 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2021/07/25/competition/ckrin2hen000a3sw6ggp98t11/</loc>
+    <loc>http://example.com/2021/08/30/Computer-Vision/Multi-Modal/Video-Text/Segmentation/cksyd2mzu000j7sw615che66m/</loc>
+    
+    <lastmod>2021-08-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/dataset/RefSegV/A2D.html</loc>
+    
+    <lastmod>2021-08-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/dataset/RefSegV/index.html</loc>
+    
+    <lastmod>2021-08-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/dataset/index.html</loc>
+    
+    <lastmod>2021-08-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/2021/07/25/competition/cksyd2mzv000k7sw6f66vdb7r/</loc>
     
     <lastmod>2021-07-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/dataset/VSOD/index.html</loc>
+    <loc>http://example.com/2021/06/09/reading-note/Video/Multi-Modal/Video-Sound/Localization/cksyd2mzx000p7sw6gzecanw4/</loc>
     
-    <lastmod>2021-05-23</lastmod>
+    <lastmod>2021-06-09</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/dataset/index.html</loc>
+    <loc>http://example.com/2021/05/19/reading-note/Video/Multi-Modal/Video-Optical-Flow/Motion-Prediction/cksyd2mzx000o7sw65xzc4z57/</loc>
+    
+    <lastmod>2021-06-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/2021/05/24/reading-note/Video/Multi-Modal/Video-Text/Retrieval/cksyd2mzw000n7sw6b0wvapyp/</loc>
+    
+    <lastmod>2021-06-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/dataset/VSOD/index.html</loc>
     
     <lastmod>2021-05-23</lastmod>
     
@@ -72,7 +114,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2021/05/18/Hexo/ckrin2hek00083sw67w9g9fu0/</loc>
+    <loc>http://example.com/2021/05/18/Hexo/cksyd2mzi00017sw6gmk70f4t/</loc>
     
     <lastmod>2021-05-19</lastmod>
     
@@ -102,7 +144,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2021-07-25</lastmod>
+    <lastmod>2021-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -110,14 +152,49 @@
   
   <url>
     <loc>http://example.com/tags/Hexo/</loc>
-    <lastmod>2021-07-25</lastmod>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/Computer-Vision/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/Video/</loc>
+    <lastmod>2021-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/competition/</loc>
-    <lastmod>2021-07-25</lastmod>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/Multi-Modal/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/self-supervised/</loc>
+    <lastmod>2021-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -126,14 +203,105 @@
   
   <url>
     <loc>http://example.com/categories/Hexo/</loc>
-    <lastmod>2021-07-25</lastmod>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Computer-Vision/</loc>
+    <lastmod>2021-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/competition/</loc>
-    <lastmod>2021-07-25</lastmod>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/reading-note/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Computer-Vision/Multi-Modal/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/reading-note/Video/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Computer-Vision/Multi-Modal/Video-Text/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/reading-note/Video/Multi-Modal/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Computer-Vision/Multi-Modal/Video-Text/Segmentation/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/reading-note/Video/Multi-Modal/Video-Text/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/reading-note/Video/Multi-Modal/Video-Optical-Flow/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/reading-note/Video/Multi-Modal/Video-Sound/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/reading-note/Video/Multi-Modal/Video-Text/Retrieval/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/reading-note/Video/Multi-Modal/Video-Optical-Flow/Motion-Prediction/</loc>
+    <lastmod>2021-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/reading-note/Video/Multi-Modal/Video-Sound/Localization/</loc>
+    <lastmod>2021-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
