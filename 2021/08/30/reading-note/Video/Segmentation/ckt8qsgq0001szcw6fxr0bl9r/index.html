@@ -20,34 +20,34 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
 
 <script class="next-config" data-name="main" type="application/json">{&quot;hostname&quot;:&quot;example.com&quot;,&quot;root&quot;:&quot;&#x2F;&quot;,&quot;images&quot;:&quot;&#x2F;images&quot;,&quot;scheme&quot;:&quot;Gemini&quot;,&quot;version&quot;:&quot;8.4.0&quot;,&quot;exturl&quot;:false,&quot;sidebar&quot;:{&quot;position&quot;:&quot;left&quot;,&quot;display&quot;:&quot;post&quot;,&quot;padding&quot;:18,&quot;offset&quot;:12},&quot;copycode&quot;:false,&quot;bookmark&quot;:{&quot;enable&quot;:false,&quot;color&quot;:&quot;#222&quot;,&quot;save&quot;:&quot;auto&quot;},&quot;fancybox&quot;:false,&quot;mediumzoom&quot;:false,&quot;lazyload&quot;:false,&quot;pangu&quot;:false,&quot;comments&quot;:{&quot;style&quot;:&quot;tabs&quot;,&quot;active&quot;:null,&quot;storage&quot;:true,&quot;lazyload&quot;:false,&quot;nav&quot;:null},&quot;motion&quot;:{&quot;enable&quot;:true,&quot;async&quot;:false,&quot;transition&quot;:{&quot;post_block&quot;:&quot;fadeIn&quot;,&quot;post_header&quot;:&quot;fadeInDown&quot;,&quot;post_body&quot;:&quot;fadeInDown&quot;,&quot;coll_header&quot;:&quot;fadeInLeft&quot;,&quot;sidebar&quot;:&quot;fadeInUp&quot;}},&quot;prism&quot;:false,&quot;i18n&quot;:{&quot;placeholder&quot;:&quot;搜索...&quot;,&quot;empty&quot;:&quot;没有找到任何搜索结果：${query}&quot;,&quot;hits_time&quot;:&quot;找到 ${hits} 个搜索结果（用时 ${time} 毫秒）&quot;,&quot;hits&quot;:&quot;找到 ${hits} 个搜索结果&quot;}}</script>
-<meta name="description" content="论文题目：Fine-grained Video-Text Retrieval with Hierarchical Graph Reasoning">
+<meta name="description" content="论文题目：Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation">
 <meta property="og:type" content="article">
 <meta property="og:title" content="阅读笔记-Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation">
-<meta property="og:url" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/index.html">
+<meta property="og:url" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/index.html">
 <meta property="og:site_name" content="WWK的博客">
-<meta property="og:description" content="论文题目：Fine-grained Video-Text Retrieval with Hierarchical Graph Reasoning">
+<meta property="og:description" content="论文题目：Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/im1.jpg">
-<meta property="og:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/im2.jpg">
-<meta property="og:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/im3.jpg">
-<meta property="og:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/im4.jpg">
-<meta property="og:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/im5.jpg">
+<meta property="og:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/im1.jpg">
+<meta property="og:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/im2.jpg">
+<meta property="og:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/im3.jpg">
+<meta property="og:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/im4.jpg">
+<meta property="og:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/im5.jpg">
 <meta property="article:published_time" content="2021-08-30T12:45:03.000Z">
-<meta property="article:modified_time" content="2021-08-30T13:18:36.160Z">
+<meta property="article:modified_time" content="2021-08-31T12:33:21.490Z">
 <meta property="article:author" content="Weikang Wang">
 <meta property="article:tag" content="Computer Vision">
 <meta property="article:tag" content="阅读笔记">
 <meta property="article:tag" content="Image">
 <meta property="article:tag" content="Segmentation">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/im1.jpg">
+<meta name="twitter:image" content="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/im1.jpg">
 
 
-<link rel="canonical" href="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/">
+<link rel="canonical" href="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{&quot;sidebar&quot;:&quot;&quot;,&quot;isHome&quot;:false,&quot;isPost&quot;:true,&quot;lang&quot;:&quot;zh-CN&quot;,&quot;comments&quot;:true,&quot;permalink&quot;:&quot;http:&#x2F;&#x2F;example.com&#x2F;2021&#x2F;08&#x2F;30&#x2F;reading-note&#x2F;Video&#x2F;Segmentation&#x2F;ckszf5nqv001lj0w60xlpesrw&#x2F;&quot;,&quot;path&quot;:&quot;2021&#x2F;08&#x2F;30&#x2F;reading-note&#x2F;Video&#x2F;Segmentation&#x2F;ckszf5nqv001lj0w60xlpesrw&#x2F;&quot;,&quot;title&quot;:&quot;阅读笔记-Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation&quot;}</script>
+<script class="next-config" data-name="page" type="application/json">{&quot;sidebar&quot;:&quot;&quot;,&quot;isHome&quot;:false,&quot;isPost&quot;:true,&quot;lang&quot;:&quot;zh-CN&quot;,&quot;comments&quot;:true,&quot;permalink&quot;:&quot;http:&#x2F;&#x2F;example.com&#x2F;2021&#x2F;08&#x2F;30&#x2F;reading-note&#x2F;Video&#x2F;Segmentation&#x2F;ckt8qsgq0001szcw6fxr0bl9r&#x2F;&quot;,&quot;path&quot;:&quot;2021&#x2F;08&#x2F;30&#x2F;reading-note&#x2F;Video&#x2F;Segmentation&#x2F;ckt8qsgq0001szcw6fxr0bl9r&#x2F;&quot;,&quot;title&quot;:&quot;阅读笔记-Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation&quot;}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">&quot;&quot;</script>
 <title>阅读笔记-Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation | WWK的博客</title><script src="/js/config.js"></script>
@@ -156,14 +156,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">16</span>
+        <span class="site-state-item-count">18</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -219,7 +219,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/dog.jpg">
@@ -242,10 +242,16 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2021-08-30 20:45:03 / 修改时间：21:18:36" itemprop="dateCreated datePublished" datetime="2021-08-30T20:45:03+08:00">2021-08-30</time>
+      <time title="创建时间：2021-08-30 20:45:03" itemprop="dateCreated datePublished" datetime="2021-08-30T20:45:03+08:00">2021-08-30</time>
     </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-08-31 20:33:21" itemprop="dateModified" datetime="2021-08-31T20:33:21+08:00">2021-08-31</time>
+      </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
@@ -274,9 +280,9 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>论文题目：Fine-grained Video-Text Retrieval with Hierarchical Graph Reasoning</p>
+        <p>论文题目：Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation</p>
 <span id="more"></span>
-<p>文章来源：2020CVPR</p>
+<p>文章来源：2021CVPR</p>
 <p>文章链接：<a target="_blank" rel="noopener" href="https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Railroad_Is_Not_a_Train_Saliency_As_Pseudo-Pixel_Supervision_for_CVPR_2021_paper.pdf">文章链接</a></p>
 <p>代码链接：<a target="_blank" rel="noopener" href="https://github.com/halbielee/EPS">代码链接</a></p>
 <h3 id="弱监督语义分割中存在的挑战">弱监督语义分割中存在的挑战：</h3>
@@ -292,19 +298,19 @@
 <li>将两者相结合，使网络可以同时实现良好的分割边界与分割类别。</li>
 </ol>
 <h3 id="算法结构">算法结构</h3>
-<p><img src="/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/im1.jpg"></p>
+<p><img src="/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/im1.jpg"></p>
 <ol type="1">
 <li>生成预测的显著性图。   通过分类网络生成C个前景目标类与1个背景类，将所有前景目标类设为一类，则预测的显著性图可表示为：</li>
 </ol>
-<p><img src="/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/im2.jpg"></p>
+<p><img src="/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/im2.jpg"></p>
 <p>由于场景中的显著目标可能只是所有类别中的一小类，因此直接将所有前景目标当作显著性目标是不合理的。因此，文中将类别定位图与显著性图前景重叠率大于某个阈值的目标作为前景目标：</p>
-<p><img src="/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/im3.jpg"></p>
+<p><img src="/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/im3.jpg"></p>
 <ol start="2" type="1">
 <li>联合训练   训练损失主要分为两步分。第一部分是将类别图生成的显著性图与实际显著性图做loss：</li>
 </ol>
-<p><img src="/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/im4.jpg"></p>
+<p><img src="/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/im4.jpg"></p>
 <p>实际显著性图由一个现有的显著性预测网络生成。第二部分是类别损失，由定位图经过全局平均池化后生成的类别与实际类别做损失得到：</p>
-<p><img src="/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/im5.jpg"></p>
+<p><img src="/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/im5.jpg"></p>
 
     </div>
 
@@ -324,11 +330,14 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2021/08/30/Computer-Vision/Multi-Modal/Video-Text/Segmentation/ckszf5nq40003j0w6h0jd848x/" rel="prev" title="基于文本的视频分割算法总结">
+                <a href="/2021/08/30/Computer-Vision/Multi-Modal/Video-Text/Segmentation/ckt8qsgpe0007zcw600ywg50n/" rel="prev" title="基于文本的视频分割算法总结">
                   <i class="fa fa-chevron-left"></i> 基于文本的视频分割算法总结
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/2021/08/31/reading-note/Video/Multi-Modal/Video-text/Temporal-Segmentation/ckt8qsgpx001mzcw6fr3e7m9e/" rel="next" title="阅读笔记-Cascaded Prediction Network via Segment Tree for Temporal Video Grounding">
+                  阅读笔记-Cascaded Prediction Network via Segment Tree for Temporal Video Grounding <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
     </footer>
@@ -353,11 +362,11 @@
     </label>
     <select class="lang-select" data-canonical="" aria-label="选择语言">
       
-        <option value="zh-CN" data-href="/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/" selected="">
+        <option value="zh-CN" data-href="/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/" selected="">
           简体中文
         </option>
       
-        <option value="en" data-href="/en/2021/08/30/reading-note/Video/Segmentation/ckszf5nqv001lj0w60xlpesrw/" selected="">
+        <option value="en" data-href="/en/2021/08/30/reading-note/Video/Segmentation/ckt8qsgq0001szcw6fxr0bl9r/" selected="">
           English
         </option>
       
