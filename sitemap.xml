@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/dataset/RefSegV/JHMDB.html</loc>
+    
+    <lastmod>2021-10-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/dataset/RefSegV/A2D.html</loc>
+    
+    <lastmod>2021-10-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://example.com/2021/09/06/Computer-Vision/ckt8qsgp80001zcw6et4og2rz/</loc>
     
     <lastmod>2021-09-06</lastmod>
@@ -38,13 +52,6 @@
   
   <url>
     <loc>http://example.com/2021/08/30/Computer-Vision/Multi-Modal/Video-Text/Segmentation/ckt8qsgpe0007zcw600ywg50n/</loc>
-    
-    <lastmod>2021-08-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/dataset/RefSegV/A2D.html</loc>
     
     <lastmod>2021-08-30</lastmod>
     
@@ -165,7 +172,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -173,63 +180,63 @@
   
   <url>
     <loc>http://example.com/tags/Computer-Vision/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Hexo/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Video/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/competition/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Multi-Modal/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/self-supervised/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Image/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Segmentation/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -238,126 +245,126 @@
   
   <url>
     <loc>http://example.com/categories/Computer-Vision/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Hexo/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/competition/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/reading-note/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Computer-Vision/Multi-Modal/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/reading-note/Video/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Computer-Vision/Multi-Modal/Video-Text/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/reading-note/Video/Multi-Modal/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Computer-Vision/Multi-Modal/Video-Text/Segmentation/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/reading-note/Video/Multi-Modal/Video-Text/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/reading-note/Video/Multi-Modal/Video-Text/Retrieval/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/reading-note/Video/Multi-Modal/Video-text/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/reading-note/Video/Multi-Modal/Video-Optical-Flow/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/reading-note/Video/Multi-Modal/Video-Sound/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/reading-note/Video/Segmentation/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/reading-note/Video/Multi-Modal/Video-text/Temporal-Segmentation/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/reading-note/Video/Multi-Modal/Video-Optical-Flow/Motion-Prediction/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/reading-note/Video/Multi-Modal/Video-Sound/Localization/</loc>
-    <lastmod>2021-09-06</lastmod>
+    <lastmod>2021-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
